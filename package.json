@@ -1,0 +1,25 @@
+{
+  "name": "mattesteg",
+  "version": "1.0.0",
+  "description": "Mattesteg – litt etter litt",
+  "type": "module",
+  "scripts": {
+    "preview": "node preview.cjs",
+    "checks": "node checks.cjs",
+    "build": "node ci.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aitools365-wq/mattesteg"
+  },
+  "keywords": [
+    "math",
+    "education",
+    "norwegian"
+  ],
+  "author": "GeirR.",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
