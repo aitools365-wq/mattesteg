@@ -1,6 +1,6 @@
 # Mattesteg
 
-[![CI](https://github.com/RSTUV8/mattesteg/actions/workflows/ci.yml/badge.svg)](https://github.com/RSTUV8/mattesteg/actions/workflows/ci.yml)
+[![CI](https://github.com/aitools365-wq/mattesteg/actions/workflows/ci.yml/badge.svg)](https://github.com/aitools365-wq/mattesteg/actions/workflows/ci.yml)
 
 Forfatter: **GeirR.**
 
@@ -14,7 +14,7 @@ Kjør `node checks.cjs` for kontroller av oppgavegeneratoren.
 
 ## Publisering på Vercel
 
-Importer GitHub-repositoriet `RSTUV8/mattesteg` i Vercel og bruk `main` som produksjonsgren. La Root Directory være prosjektroten (ikke `dist`). `vercel.json` setter Framework Preset til Other, hopper over installasjon, kjører `node ci.cjs` som byggkommando og publiserer filene i `dist` bare dersom kontrollene består. Ingen miljøvariabler eller database er nødvendig for denne versjonen.
+Importer GitHub-repositoriet `aitools365-wq/mattesteg` i Vercel og bruk `main` som produksjonsgren. La Root Directory være prosjektroten (ikke `dist`). `vercel.json` setter Framework Preset til Other, hopper over installasjon, kjører `node ci.cjs` som byggkommando og publiserer filene i `dist` bare dersom kontrollene består. Ingen miljøvariabler eller database er nødvendig for denne versjonen.
 
 Appen bruker ikke Sites-innlogging; innloggingskravet i den private Sites-prototypen kommer fra vertstjenesten. Tilgang til Vercel-versjonen styres av Vercel-prosjektets egne innstillinger. Lokal fremgang følger nettadressen og nettleseren, og flyttes ikke automatisk fra Sites til Vercel.
 
